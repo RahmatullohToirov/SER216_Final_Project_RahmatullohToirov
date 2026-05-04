@@ -32,7 +32,7 @@ SER216_Final_Project_RahmatullohToirov/
     └── tools_used.md                  ← Detailed notes on tools and workflow
 ```
 ---
-## Project Tasks Summary
+## Project Tasks Summary--
 ### Task 1 – Requirements
 **Functional Requirements:**
 1. The system shall allow students and staff to register their vehicles using a student/staff ID and vehicle details.
