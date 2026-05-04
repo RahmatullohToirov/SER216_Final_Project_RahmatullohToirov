@@ -1,0 +1,7 @@
+Test ID,Feature,Input / Data,Expected Result,Test Type
+TC-001,Vehicle Registration,"Student ID: S12345, Vehicle: Toyota Camry 2020, Plate: ABC-1234","Vehicle is successfully registered; confirmation message displayed with unique Registration ID (e.g., REG-00123) and timestamp",System Test
+TC-002,Permit Verification,"Permit ID: P98765, Verification by security staff","System displays permit as VALID with owner name, zone, and expiry date",System Test
+TC-003,Parking Permit Request,"Registered user requests permit for Zone A, duration: 1 semester","Permit is approved and user receives a digital permit with unique ID",Acceptance Test
+TC-004,Zone Availability Check,"User selects Zone B to check availability","System displays current number of available spaces in Zone B in real time",Acceptance Test
+TC-005,Expired Permit Re-verification,"Test setup: create permit P11111 with expiry date = yesterday's date (e.g., system date minus 1 day). Scan permit P11111 as security staff","System correctly shows permit P11111 as EXPIRED and denies parking access",Regression Test
+TC-006,Vehicle Re-registration After Update,"User updates vehicle plate from ABC-1234 to XYZ-5678 and requests new permit","New permit is issued with updated plate number; old permit is invalidated",Regression Test

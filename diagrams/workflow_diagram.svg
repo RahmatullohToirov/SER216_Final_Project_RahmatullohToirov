@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="200" fill="#f8f9fa" rx="10"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Digital Parking Permit System – Workflow</text>
+
+  <!-- Step 1: Vehicle Registration -->
+  <rect x="20" y="70" width="150" height="60" rx="8" fill="#4A90D9" stroke="#2c6fad" stroke-width="2"/>
+  <text x="95" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Vehicle</text>
+  <text x="95" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Registration</text>
+
+  <!-- Arrow 1 -->
+  <line x1="170" y1="100" x2="198" y2="100" stroke="#555" stroke-width="2"/>
+  <polygon points="195,95 205,100 195,105" fill="#555"/>
+
+  <!-- Step 2: Permit Request -->
+  <rect x="200" y="70" width="150" height="60" rx="8" fill="#5BA45A" stroke="#3d7a3c" stroke-width="2"/>
+  <text x="275" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Permit</text>
+  <text x="275" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Request</text>
+
+  <!-- Arrow 2 -->
+  <line x1="350" y1="100" x2="378" y2="100" stroke="#555" stroke-width="2"/>
+  <polygon points="375,95 385,100 375,105" fill="#555"/>
+
+  <!-- Step 3: Zone Check -->
+  <rect x="380" y="70" width="150" height="60" rx="8" fill="#E8A838" stroke="#b07c1a" stroke-width="2"/>
+  <text x="455" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Zone</text>
+  <text x="455" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Check</text>
+
+  <!-- Arrow 3 -->
+  <line x1="530" y1="100" x2="558" y2="100" stroke="#555" stroke-width="2"/>
+  <polygon points="555,95 565,100 555,105" fill="#555"/>
+
+  <!-- Step 4: Permit Approval -->
+  <rect x="560" y="70" width="150" height="60" rx="8" fill="#8E5EA2" stroke="#66317a" stroke-width="2"/>
+  <text x="635" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Permit</text>
+  <text x="635" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Approval</text>
+
+  <!-- Arrow 4 -->
+  <line x1="710" y1="100" x2="738" y2="100" stroke="#555" stroke-width="2"/>
+  <polygon points="735,95 745,100 735,105" fill="#555"/>
+
+  <!-- Step 5: Parking Verification -->
+  <rect x="740" y="70" width="150" height="60" rx="8" fill="#D9534F" stroke="#a02622" stroke-width="2"/>
+  <text x="815" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Parking</text>
+  <text x="815" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Verification</text>
+
+  <!-- Step labels -->
+  <text x="95" y="155" text-anchor="middle" font-size="10" fill="#555">Step 1</text>
+  <text x="275" y="155" text-anchor="middle" font-size="10" fill="#555">Step 2</text>
+  <text x="455" y="155" text-anchor="middle" font-size="10" fill="#555">Step 3</text>
+  <text x="635" y="155" text-anchor="middle" font-size="10" fill="#555">Step 4</text>
+  <text x="815" y="155" text-anchor="middle" font-size="10" fill="#555">Step 5</text>
+
+  <!-- Footer -->
+  <text x="450" y="185" text-anchor="middle" font-size="10" fill="#888">SER216 Final Project – Rahmatulloh Toirov</text>
+</svg>
